@@ -5,7 +5,7 @@ class Main {
 
     public $notes;
 
-    __constructor( $notes ){
+    __construct( $notes ){
         $this->notes = $notes;
     }
 }
