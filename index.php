@@ -1,5 +1,5 @@
 <?php
 
-echo 'Hello World!';
+define( 'INCLUDES' = 'inc');
 
-echo 'Another hello';
+include_once INCLUDES . 'class-main.php';
